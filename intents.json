@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey"
+      ],
+      "responses": [
+        "Hello! Welcome to our fashion store. How can I help you today?",
+        "Hi! Is there anything you're looking for?"
+      ]
+    },
+    {
+      "tag": "product_information",
+      "patterns": [
+        "Can you tell me more about your products?",
+        "What types of clothes do you sell?",
+        "Do you have any new arrivals?"
+      ],
+      "responses": [
+        "We sell a variety of clothes including shirts, pants, dresses, and accessories. Our new arrivals are listed on our website. Would you like me to send you a link?",
+        "We have a wide selection of clothes for men and women. Our new arrivals are updated regularly on our website."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Are there any discounts available?",
+        "Do you have any promotions?"
+      ],
+      "responses": [
+        "We have ongoing promotions and discounts. You can find them on our website or by subscribing to our newsletter.",
+        "Yes, we have discounts available on certain products. You can find them on our website or by subscribing to our newsletter."
+      ]
+    },
+    {
+      "tag": "checkout",
+      "patterns": [
+        "How do I checkout?",
+        "How can I place an order?",
+        "Can I pay with a credit card?"
+      ],
+      "responses": [
+        "You can place an order on our website or by calling our customer service number. We accept all major credit cards.",
+        "You can checkout on our website or by calling our customer service number. We accept all major credit cards and provide free shipping for orders over $50."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome. Is there anything else I can help you with?",
+        "No problem. Let me know if you have any other questions."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye"
+      ],
+      "responses": [
+        "Thank you for visiting our fashion store. Have a great day!",
+        "Goodbye. We hope to see you again soon!"
+      ]
+    }
+  ]
+}
